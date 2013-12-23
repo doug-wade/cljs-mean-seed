@@ -16,6 +16,18 @@
       ["LICENSE" (render "LICENSE" data)]
       ["README.md" (render "README.md" data)]
       ["src/app.cljs" (render "src/app.cljs" data)]
+      ;; TODO task: public/js/lib/angular/i18n should all be included
+      ;; TODO feature: use bower via Grunt via Lein instead of writing this out by hand
+      ["public/js/lib/angular/angular.js" (render "public/js/lib/angular/angular.js")]
+      ["public/js/lib/angular/angular.min.js" (render "public/js/lib/angular/angular.min.js")]
+      ["public/js/lib/angular/angular-bootstrap.js" (render "public/js/lib/angular/angular-bootstrap.js")]
+      ["public/js/lib/angular/angular-bootstrap.min.js" (render "public/js/lib/angular/angular-bootstrap.min.js")]
+      ["public/js/lib/angular/angular-cookies.js" (render "public/js/lib/angular/angular-cookies.js")]
+      ["public/js/lib/angular/angular-cookies.min.js" (render "public/js/lib/angular/angular-cookies.min.js")]
+      ["public/js/lib/angular/angular-resource.js" (render "public/js/lib/angular/angular-resource.js")]
+      ["public/js/lib/angular/angular-resource.min.js" (render "public/js/lib/angular/angular-resource.min.js")]
+      ["public/js/lib/angular/version.json" (render "public/js/lib/angular/version.json")]
+      ["public/js/lib/angular/version.text" (render "public/js/lib/angular/version.text")]
       ["public/js/services.cljs" (render "public/js/services.cljs" data)]
       ["public/js/filters.cljs" (render "public/js/filters.cljs" data)]
       ["public/js/directives.cljs" (render "public/js/directives.cljs" data)]

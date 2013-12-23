@@ -15,16 +15,9 @@
                                    :optimizations :simple
                                    :pretty-print true}}]}
   :plugins [[lein-cljsbuild "1.0.1-SNAPSHOT"]
-            [lein-npm "0.1.0"]
-            [lein-beanstalk "0.2.7"]]
+            [lein-npm "0.1.0"]]
   :node-dependencies [[express "3.4.6"]
                       [jade "~0.31.2"]
-                      [aws-sdk "2.0.0-rc4"]
-                      [stylus "~0.41"]
-                      [grunt "~0.4.2"]
-                      [grunt-aws-sdk "~0.2.0"]]
-  :bower-directory "public/js/lib"
-  :bower-dependencies [[angular-latest "~1.2.7"]
-                       [bootstrap "~3.0.3"]]
+                      [stylus "~0.41"]]
   :main "app.js")
 
