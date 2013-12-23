@@ -38,5 +38,4 @@
       ["views/layout.jade" (render "views/layout.jade")]
       ["views/partials/partial1.jade" (render "views/partials/partial1.jade"  data)]
       ["views/partials/partial2.jade" (render "views/partials/partial2.jade")]
-      ["routes/routes.cljs" (render "routes/routes.cljs" data)]
       ["project.clj" (render "project.clj" data)])))
