@@ -1,15 +1,22 @@
 # {{name}}
 
-A Web application built on Nodejs using Express and AngularJS
-
-## TODO
-  Grunt
-  Stylus?
-  Bootstrap?
+A Web application built on Nodejs using Express and AngularJS in Clojurescript.
 
 ## Usage
 
-FIXME
+Quick start:
+    lein deps
+    lein cljsbuild once
+    nodejs app.js
+
+A general workflow:
+    lein deps
+    lein cljsbuild auto
+    nodejs app.js
+    Repeat:
+        Edit some files
+        Restart the server
+        Look at your browser
 
 ## License
 Distributed under the Eclipse Public License either version 1.0 or (at

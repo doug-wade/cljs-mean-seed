@@ -27,7 +27,7 @@
       ["public/js/lib/angular/angular-resource.js" (render "public/js/lib/angular/angular-resource.js")]
       ["public/js/lib/angular/angular-resource.min.js" (render "public/js/lib/angular/angular-resource.min.js")]
       ["public/js/lib/angular/version.json" (render "public/js/lib/angular/version.json")]
-      ["public/js/lib/angular/version.text" (render "public/js/lib/angular/version.text")]
+      ["public/js/lib/angular/version.txt" (render "public/js/lib/angular/version.txt")]
       ["public/js/services.cljs" (render "public/js/services.cljs" data)]
       ["public/js/filters.cljs" (render "public/js/filters.cljs" data)]
       ["public/js/directives.cljs" (render "public/js/directives.cljs" data)]
